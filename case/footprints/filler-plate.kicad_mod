@@ -1,0 +1,105 @@
+(footprint "filler-plate"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eb688dea-2e98-4561-b42c-fe6f71a2825a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "switch-plate"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2b5c252-0331-45a3-a8a9-c67976a6f2d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9818d11f-20dc-49e6-bbab-8014260cf19e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92a8bd89-991c-4c88-aa80-b79fbb4808dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -0.595312 0)
+		(end 0.595312 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "edf71855-7688-43f5-90e1-1bd34472b150")
+	)
+	(fp_line
+		(start 0 0.595312)
+		(end 0 -0.595312)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "f9daf02a-9352-44da-92b5-7dca07de7526")
+	)
+	(fp_rect
+		(start -9.525 -9.525)
+		(end 9.525 9.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "332015f5-01d3-4dbf-8e1a-7f222e7b6d6c")
+	)
+	(fp_rect
+		(start -7.25 -7.25)
+		(end 7.25 7.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "eebb94f6-f035-40ec-978f-9ab288ef3d29")
+	)
+	(group ""
+		(uuid "4ff8e9b6-dcc8-4a2b-a9c4-f6c8b7dde935")
+		(members "edf71855-7688-43f5-90e1-1bd34472b150" "f9daf02a-9352-44da-92b5-7dca07de7526")
+	)
+	(embedded_fonts no)
+)

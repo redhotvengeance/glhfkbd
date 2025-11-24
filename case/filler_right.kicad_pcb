@@ -1,0 +1,4173 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 3.09)
+		(legacy_teardrops no)
+	)
+	(paper "A3")
+	(layers
+		(0 "F.Cu" power)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 3)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "out/pcb/")
+		)
+	)
+	(net 0 "")
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "0c5daba9-1e27-42e5-b2fa-7f74e3c68fac")
+		(at 227.70684 146.149096)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1d5d8023-d985-428d-93df-3038b7c73bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4779c03-dad2-4989-9919-8063327552d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9357042a-e98a-4dc0-b1de-e0293e6caebc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e24c47fa-b03d-464b-9724-8ffcc11e7f07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "056df1fb-e1a7-4458-be14-6f12d14cbfe0")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "8e3fab28-d358-49ed-acd5-8e3b6c942cde")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "259a80ed-1f42-465d-8c16-50392bfefffe")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "7bdd827e-235c-4aa4-ba42-2cac6fa6f156")
+		)
+		(group ""
+			(uuid "03842414-df6c-411c-b26e-49e776ece6df")
+			(members "056df1fb-e1a7-4458-be14-6f12d14cbfe0" "8e3fab28-d358-49ed-acd5-8e3b6c942cde")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "0d87897b-4544-42e0-adee-37c320e600ed")
+		(at 294.381784 165.19908)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3f0f0162-7ac1-44c5-a05f-ea816b22fcfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5ea3d99-c397-418d-9b88-51d3c835c808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3688e709-57fb-4fe5-b987-7b228a7e08ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d82ef38-bbc2-4bb8-bec9-0738b29bc9c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "096e0880-c1a8-4e12-8fe8-c774538dcc9b")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "b6568c22-9bdc-4f43-bd60-364320fa0a57")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "9cb86e11-1612-46bf-981a-8ad8f2285833")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "cfc8f4b3-649f-49ba-abb3-e8162bf14caa")
+		)
+		(group ""
+			(uuid "dead3d69-7aa6-49c3-99cb-2cfbe3b520cd")
+			(members "096e0880-c1a8-4e12-8fe8-c774538dcc9b" "b6568c22-9bdc-4f43-bd60-364320fa0a57")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "0dd0cff3-919f-4086-bb67-65c1ba89984d")
+		(at 327.719256 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "157a2858-709b-4086-bb35-e4c24d197bcf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1ffdd5e-c0e4-4344-bda1-754180c95c3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6947b74a-f629-4988-b09f-5b2ed3256767")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "616115ed-dacc-4f26-ac90-f2a00a9507c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "9711f7f1-4ffc-456b-ba3b-d655f7dab160")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "d95825fa-64e8-41f9-a505-68069217caa2")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e54b2421-faa5-413b-9821-79616e70b19e")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2c3d43e9-61cf-4471-90f9-8b92c0f1db30")
+		)
+		(group ""
+			(uuid "db84c310-a511-4710-bfde-679572c1a798")
+			(members "9711f7f1-4ffc-456b-ba3b-d655f7dab160" "d95825fa-64e8-41f9-a505-68069217caa2")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "0fd8d0e7-d279-46cb-a662-6116bf29c642")
+		(at 232.469336 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8394880b-477d-4c6e-90cf-b25f80716b68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba2ef250-f2d6-4c0c-b161-e13a58560a38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97bbae27-c1f8-4faf-a0b7-4072ee1b9b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d069fffe-e532-46b1-97cf-14ae0619bec4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "3aa699c2-a8ae-420a-95ed-5e7318326f86")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "c201d8b5-7318-4d83-aa3f-1014ff221951")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "8b2154f5-f214-4764-b34e-7b661f20e6af")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "369aebfa-5e2e-4548-91b9-cfb14b6e9e3a")
+		)
+		(group ""
+			(uuid "582b6405-a57f-41d8-9bad-dafd9b52c01c")
+			(members "3aa699c2-a8ae-420a-95ed-5e7318326f86" "c201d8b5-7318-4d83-aa3f-1014ff221951")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "13f2411a-c25d-430b-9070-b74f2567759d")
+		(at 270.569304 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "eaf3e8c4-6ac0-4264-8bd6-090bdc8c290e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02d26a28-0cf5-4f76-b82d-d3ff9e8c86d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89e6a70d-aee6-407d-ae0f-8b8afd7cd0c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c3819bc-0509-48f3-8fb6-74e4b87b4c4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "aeb125de-0302-439d-8795-da406f693785")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "22b99f71-1f1b-4287-8c91-db39a062b9dd")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "63009e7f-8d28-4431-a8ec-26bc8f06a111")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6679570e-71c8-45b4-8e6c-05c3c59ea028")
+		)
+		(group ""
+			(uuid "65065f34-c68b-4ef7-86c6-4fd3e4a67dd9")
+			(members "22b99f71-1f1b-4287-8c91-db39a062b9dd" "aeb125de-0302-439d-8795-da406f693785")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "19aa80ae-17c4-4651-b963-39c1c161d7b1")
+		(at 313.431768 165.19908)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "883f9fb3-4549-42da-b3c7-e2befd223a43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57a91d2e-a7e6-4e58-948b-c4a00744e4c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d629163a-9be0-4c5c-947b-d675a9245ce0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5155ff9e-3587-44ad-ad7f-23e4782501a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "35e4325d-7a09-403b-b6ab-e7384255abcb")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "4eb48f29-6d18-4744-9193-25f2b5589def")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "863ff974-c75c-4217-9117-bb391265b16b")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e49efe3d-9c54-4e57-96da-facb8f578384")
+		)
+		(group ""
+			(uuid "7462523a-313f-495d-9a22-079c9db0e653")
+			(members "35e4325d-7a09-403b-b6ab-e7384255abcb" "4eb48f29-6d18-4744-9193-25f2b5589def")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "204315e7-3e0d-42c2-b5ba-e56777dfcf1f")
+		(at 241.994328 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "54a3c70c-f18a-4b95-b1c5-5a497524e5be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90dc06c8-c7be-4beb-a458-a95155c9c09c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c02fe49-1dd4-441a-844c-5435de1495b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4cce107-96df-449e-be82-bcbe7184cf53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "062bc5b1-e422-4a17-a76c-b414878f601e")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "922f4d28-d005-4fa7-a9f7-dd0336ad1588")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "5c10342e-7878-4f5a-ae93-3f2508c31735")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9e1c9e53-a1c8-4b87-8bb0-fcdd43d5baed")
+		)
+		(group ""
+			(uuid "432cfb0b-8cf4-4ad0-9571-ed272e1eb58e")
+			(members "062bc5b1-e422-4a17-a76c-b414878f601e" "922f4d28-d005-4fa7-a9f7-dd0336ad1588")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "2044fcbb-8af0-48eb-96c9-cd7e90bfa9b0")
+		(at 322.95676 146.149096)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "be6dbe59-d5f1-45da-b96d-496009224a99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cfba70c-10eb-4f35-abc0-cedf410e8f79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38696efd-df75-480c-a04b-e2c9e8caa11d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8025011a-808c-40f2-a8da-856d041fbad6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "72b52bd2-74ad-43e0-b1b7-c1630bf80788")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "3c18679e-0df4-4a8a-96e1-086160684ca3")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "79e3d714-ebe9-4ef1-ae9f-5f3b47f277d2")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "7115a82b-af74-4881-8abb-a141cedf8dfc")
+		)
+		(group ""
+			(uuid "08328bf1-7460-498f-95cd-3bbe8ec2d595")
+			(members "3c18679e-0df4-4a8a-96e1-086160684ca3" "72b52bd2-74ad-43e0-b1b7-c1630bf80788")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "2a29b192-bf40-4aaf-93fe-8bcf7456777b")
+		(at 241.994328 184.249064)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e25067b0-489b-40a3-8865-94b0a7226d21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adacd1ed-1e39-4036-b0ac-9159e6aa3e90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e718d5a9-1f21-443f-b6b0-7c0e6ebe7fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1a07f25-0b7e-47f1-aa79-88e2dcaf4173")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "59786c73-f942-48f7-9e16-f22d1d50b27a")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "ea039ec1-66ce-4b94-9a3a-92c94b7de274")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "bfeee343-e08b-4741-8c9b-c23f2a5edcfa")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "4922cecf-16dc-424b-9bb6-bcd85f51e784")
+		)
+		(group ""
+			(uuid "5983708b-4283-4e52-b4fc-4b4e4a919df5")
+			(members "59786c73-f942-48f7-9e16-f22d1d50b27a" "ea039ec1-66ce-4b94-9a3a-92c94b7de274")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "2e307057-21ba-4d27-b833-98ec256d0c65")
+		(at 261.044312 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8669bb5a-485e-471f-a9d7-a1df808174e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84b6714f-9fde-4762-ac65-05534644838b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7645c360-62dc-465f-9dbd-2f24dee3992d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99ddcf23-c971-4815-82ce-3fe238ea35d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "0fd86c93-3078-4091-97c1-2549638c0e32")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "cfd22b4c-9138-4174-a7ac-97750ec095d8")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e3d7a45f-1e6c-4cdb-a2b9-f01fec573cde")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "483dcf05-255e-4c47-ab68-4e9b31bf296c")
+		)
+		(group ""
+			(uuid "1d873171-7866-4bc8-9c8c-20421360f2bb")
+			(members "0fd86c93-3078-4091-97c1-2549638c0e32" "cfd22b4c-9138-4174-a7ac-97750ec095d8")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "365519d5-5272-43b4-9ee0-02acf93baa92")
+		(at 308.669272 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c297c9f3-25b3-4530-9416-1d75dba9eb20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60fea313-324a-4372-acf0-787b5579f57b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "753a727d-0af7-43c7-ad80-2599832ab7cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2faf395-38d6-4840-b125-2a9c63bd5fa3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "7a9501b0-ffc8-475e-8aa0-ecc663999a5b")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "07a66ec7-32de-4b82-b0ef-f3d55f5d5493")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "566c167a-e341-4914-af08-d440d41f14fd")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d25749c2-3316-4206-af1f-bc718d6993db")
+		)
+		(group ""
+			(uuid "072ae4d8-f59e-4dbd-a534-a7717848acea")
+			(members "07a66ec7-32de-4b82-b0ef-f3d55f5d5493" "7a9501b0-ffc8-475e-8aa0-ecc663999a5b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "3c9eab97-4afb-46e9-833d-73411f86d17f")
+		(at 289.619288 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d0ec5c0-fca1-47a0-a558-be0d033aa7a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6facd1a2-b266-46b4-a850-45f2d2622660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ad91bc0-fa92-4ca7-a9f2-f1456cc801a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f98b0beb-8b35-4d2e-8588-fb3198eb4111")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "8fda0e85-6159-45de-a073-799c298d9f1d")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "522a3892-6732-49cc-85b7-654594f09765")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "dea87dbb-173b-40ae-b9b6-1dab60f9e75d")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c3c7ab38-c989-4b36-8394-46b0c97222f6")
+		)
+		(group ""
+			(uuid "b4fb668f-3945-4682-b5dd-0123251fc1b1")
+			(members "522a3892-6732-49cc-85b7-654594f09765" "8fda0e85-6159-45de-a073-799c298d9f1d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "42954cc0-d947-4ca0-b869-23472b72ed69")
+		(at 227.70684 174.12876)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9febe9ee-b501-43a4-8aef-563007e94e95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f93ca57-cb40-4791-9ac9-61a4197ae518")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11ae16af-7d92-4ed9-ad37-8fa8cff72b74")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a8d3e6e-eb4a-4ed5-bd5c-eacdd4ea9951")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "3bd80972-7623-4afb-a79f-556830a77881")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b9f47c52-811f-4538-9c9d-1c79663c063d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.274216 0)
+			(layer "F.Fab")
+			(uuid "f010f957-84ae-4f22-8189-05ad706afb79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4b5db215-3a16-441f-b720-01cec653268f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "497889a5-8424-4c39-8d27-0111d171c097")
+		(at 222.944344 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "746d4ce0-495a-4747-8e9e-23278dace12a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f8fd9f8-52d8-42f2-a9cc-a3cb80f40d91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5856a8bd-b76c-4f6b-8ac7-942d3f021b25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaeda32f-c912-4fb3-bd22-711a7891aeb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "cf5888e8-275f-423e-a5fe-de27f7688363")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "2560d16f-a064-49fb-adfc-8dcfab909a70")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "97b2036b-4646-4a30-9cca-51316a8d528d")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c83e3f90-24a9-4f94-ad2c-1aae9c121194")
+		)
+		(group ""
+			(uuid "a48abab8-fbc9-48d5-9112-518d1bd625b7")
+			(members "2560d16f-a064-49fb-adfc-8dcfab909a70" "cf5888e8-275f-423e-a5fe-de27f7688363")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "4b6bff9a-f4ac-4afc-ae31-bb0082b90b21")
+		(at 275.3318 136.624104)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6696510f-20d8-4b1d-9336-37203da28d30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "746a8654-0f63-4566-8bb4-0bf5f47d3d45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f56d8070-732f-4094-9e44-b259c4aa6af3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2634e110-83c4-4a6d-9fea-a88d2e51ecdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "ab6a1bb3-3158-484a-a5a2-2bbd68c6d67c")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "11198ed2-82b3-439a-8c79-3a7ac8908f4c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.274216 0)
+			(layer "F.Fab")
+			(uuid "899a262f-01d6-4567-b120-11e254c2a36e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "0b7fc3f2-bc7a-49df-8fde-3ab0d3ecb61b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "68a0499d-d743-43a3-ac06-c1529e082138")
+		(at 218.181848 165.19908)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78083180-b7e3-4d0e-b3d9-2e83d809be97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e29b5ae-b904-416e-97c9-6acb500029e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64c13c11-47cf-479e-84b4-18aaf4b26a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0d20e7a-4ef1-4cc5-a831-df73abb3c482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "41fb0d68-02fc-4274-9953-db93a0f53db7")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "14a59fa4-1c68-4c42-a666-edfdfe43ec95")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "e8dc77c3-e53e-4d39-86dd-27e81d9f6d20")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "9409dc5e-71ea-4844-868f-5eeb0140b868")
+		)
+		(group ""
+			(uuid "5daca35d-0296-445e-a2af-fe7d30f36d1f")
+			(members "14a59fa4-1c68-4c42-a666-edfdfe43ec95" "41fb0d68-02fc-4274-9953-db93a0f53db7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "7313f379-2647-4cfc-bc2c-54104deff5e9")
+		(at 280.094296 102.096008)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "65b78e20-53cd-4d50-897a-d96eda88e15f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e963dd1b-31b1-4beb-9d09-8762ea45c0a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2e90f75-cf1e-4e73-b88a-ef6f75b54270")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519e9082-7128-41be-92f8-0b7ca1a660f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "d77207d9-026e-47d4-b0d3-8406e49be5bb")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e79fe6ef-701b-4218-9ed9-eab4534538be")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.274216 0)
+			(layer "F.Fab")
+			(uuid "33f18f4e-8194-43f9-814a-7e22bd5db7b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "86412ea1-2c1a-493c-8429-4cb19667e45d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "7509eb4d-b675-45b0-bf44-6551052b5fab")
+		(at 222.944344 184.249064)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "20862af8-c994-4b36-ba53-27b497f34f00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b7fd51b-e398-4e15-b3b6-78e9e65e1177")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "554dd7e3-3217-4b6e-86f1-229d40c50226")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a92f45c-043f-4ac5-9884-915ab7302bcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "5fe621dd-b31e-4671-84a8-41c111238c09")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "71016622-796f-418a-88fe-b26c60a22286")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "b33151ae-a08c-47bc-bd67-ab66d0ef1806")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "fadd9658-ff15-43a9-baaa-88decb3d52d0")
+		)
+		(group ""
+			(uuid "4f420082-4417-4b0d-b0ae-bb7e3a7b72ac")
+			(members "5fe621dd-b31e-4671-84a8-41c111238c09" "71016622-796f-418a-88fe-b26c60a22286")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "7b35905b-af26-4eaf-8a0b-d30164615190")
+		(at 265.806808 146.149096)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1a5b6452-f346-4e28-8877-e60516818501")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa8dbc5a-ba0b-4783-b1da-a85f116b3d37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a6fd215-e6f5-482c-bfc4-f996bd1abda5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eadd9cc4-e4a7-4504-ba36-c01139916be1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "99cda190-b517-4b44-b8d2-6b2124c040ec")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "124a65d5-cb93-47bb-874f-6616d90f8734")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "9e80de05-f146-4e51-a6a2-d9ddb6f2a0ba")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "b7130c69-ccd9-4c27-b0ed-d5f94ec27fa9")
+		)
+		(group ""
+			(uuid "4ad9e31b-5b8d-482e-a587-01af5946b9d5")
+			(members "124a65d5-cb93-47bb-874f-6616d90f8734" "99cda190-b517-4b44-b8d2-6b2124c040ec")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "8036bccf-65aa-475d-a586-837eedc0e329")
+		(at 299.14428 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "43b6134e-4641-4e81-985d-cd1af3c6da54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e188fd0a-3733-4174-88f2-fffe6cc7a350")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96409712-f681-49b0-a236-ad85dfa7c804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69361f20-9d1f-4363-b2b2-20073a224738")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "26a5337d-680e-409e-87c6-a9b1746704b1")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "4c40c819-fad6-4f1a-9dc4-a78982173e8e")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "1119c618-8d99-4673-ba33-98c54a314b7b")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3a870021-2012-4680-a100-0fa1b937e30e")
+		)
+		(group ""
+			(uuid "2172bd77-ea2d-45c3-b6fb-f65d414aa2e8")
+			(members "26a5337d-680e-409e-87c6-a9b1746704b1" "4c40c819-fad6-4f1a-9dc4-a78982173e8e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "89899b72-2195-42ff-80fd-9c474c1e7846")
+		(at 246.756824 146.149096)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4edd4e3b-953a-4d06-ae26-cf1a792f7923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fba43ab-3edc-47fa-9acb-327cde993728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4765a3ae-7999-491c-9391-501b3e024d6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9ebe869-ffce-49ee-b46c-fe6bfc5a4ed8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "b0d20645-b1e0-4477-8f39-f5c79d5d7aa8")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "e733514f-4cd6-4391-a547-def795fa11ee")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "171488c7-9ece-4c54-a681-724727838774")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "b4e3137f-7630-4302-9237-037e6d6f08b7")
+		)
+		(group ""
+			(uuid "9a6bf62f-2373-4a0f-aa0a-5b26d27a08a9")
+			(members "b0d20645-b1e0-4477-8f39-f5c79d5d7aa8" "e733514f-4cd6-4391-a547-def795fa11ee")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "89dc88a3-a2df-40c6-9efe-88b524ea1e0a")
+		(at 337.244248 116.978808)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fce84124-be15-4135-9398-2d15d8928d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3767a4b8-9769-4dbb-b979-ffb811acefab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9404d29-2846-4f0a-bb0c-7d614059baee")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea9d26b0-4b88-43c2-8736-457c63773621")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "db193f52-b94f-4e72-9931-5e6031523196")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2a468df6-3656-4db1-850e-8a94abfa1941")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.274216 0)
+			(layer "F.Fab")
+			(uuid "10c27692-e4ce-485f-8ec1-370ba9164e93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "e00e6978-67a9-4fed-8ce9-5c21ee0930c1")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "9dffbed9-1b09-43f9-82de-f43b8c3554b1")
+		(at 227.70684 156.2694)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d6ae3500-0ade-46b5-bf17-23d218f0d30a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "074231bd-5148-40ed-9949-b89089e45418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b8efc45-0233-4d75-a39e-c0c12d2bc2c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff118436-fc6a-4001-8819-31ca9cd02e54")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "4e99208d-62fe-4115-855d-fc9455e9e6d7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4fe2824b-70d5-41f5-bcdc-040a0b5631d5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.274216 0)
+			(layer "F.Fab")
+			(uuid "8ed434f8-3900-405d-9325-5491f7d85c58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "a880dfd8-68c0-425f-8cbb-8a31c1fa50e5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "a66564c6-60c5-46a5-88c7-d2607fbec89b")
+		(at 261.044312 184.249064)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4019cfc7-b981-48df-836a-a61bb5417f7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb0d0512-5213-4b9a-a5c1-4d55d1ad99a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36433afe-9c13-4599-9fe8-99bd2864b0d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91abe31d-7bd7-4af3-a955-099d4e239405")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "4ed98a65-1405-4e32-95a1-945cbd89e07b")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "77e1e477-8255-4c73-b96e-9ba99addced7")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "65264e91-ec81-44ae-891d-653b36765f46")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "43242170-c540-4b90-8eec-13d6db302aa1")
+		)
+		(group ""
+			(uuid "36d1a248-a9f6-4c98-bf73-88f7b5d782df")
+			(members "4ed98a65-1405-4e32-95a1-945cbd89e07b" "77e1e477-8255-4c73-b96e-9ba99addced7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "b19efabe-d287-4807-8b37-7e67567ce360")
+		(at 346.76924 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "119d0510-d92b-4ee6-be2e-5453d2105cb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae26a8a5-6617-4836-beaf-9da3309819cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d8e8a20-0d04-475e-88ac-4616eb1ce2a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f086f00c-e42b-4e0a-b5ce-0318f9a77234")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "128cebef-ee41-48f9-804e-a9801eb758e8")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "b11594f8-ad7d-4daa-af02-f575de596823")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "edfffdd7-334b-42db-9685-8fea60ab329a")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2c61be63-5e5e-4d40-aeaa-ff55aa108611")
+		)
+		(group ""
+			(uuid "01ae042e-1331-44f2-a2b9-26d26ad03660")
+			(members "128cebef-ee41-48f9-804e-a9801eb758e8" "b11594f8-ad7d-4daa-af02-f575de596823")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "b241138d-74de-49e0-a953-77e009303afb")
+		(at 265.806808 174.12876)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a5a51c43-be23-40bf-b257-f60aceb4aa1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f17cfc09-cf82-4d11-8c46-6feae7c706f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f73dc871-b109-4022-959d-1aa1718d8d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03089cdb-0b2b-448f-978e-9719b5fde07e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "a4cc5e3c-7f60-445d-9af4-5675a68a651b")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "356c9599-02db-43f0-864e-a9ba863ca848")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.274216 0)
+			(layer "F.Fab")
+			(uuid "5519a2fd-6409-4aaf-bdfb-4e01461508a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "4e57488f-5ef7-4876-a1d1-e730b721429e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "b4a6952c-7c21-4510-ac7b-98f07ea3c90e")
+		(at 251.51932 108.049128)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "47e7a7f4-2654-4c24-8bbb-6ed9bdbac925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7964fea-7e9c-4aa3-8072-40a59e4cd655")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "123f0d5a-3241-4770-a6d7-164b6370ba2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "972dcb5e-62db-4411-be38-ba1c90e7e8e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "e6408166-2cf8-4be7-b61e-98b005ccbf1f")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "3b1bd33b-5ab4-40c8-b230-1bc5531249e9")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "de4bd409-eaed-4ac4-965a-f9834b30c56a")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "0539144a-ffe1-4e7e-8e88-095ace69c239")
+		)
+		(group ""
+			(uuid "f57b1db1-7bb3-45fc-a8eb-d2d6581e86bb")
+			(members "3b1bd33b-5ab4-40c8-b230-1bc5531249e9" "e6408166-2cf8-4be7-b61e-98b005ccbf1f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "c937fe08-ebfb-40f4-b069-1e620ff36b1c")
+		(at 256.281816 165.19908)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3c2c67eb-f310-4aad-bb88-dec70a21f3ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c340c8f-f8ef-4a27-bf97-a80303f765cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4395e43-da79-4f6e-aaac-707fdcc56af0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a58857c9-8862-45ff-a252-4c78f01cb172")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "4bc97e7e-d92f-45b9-9c51-0b4d357536fc")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "427999ee-3353-4ceb-b108-dbbf23316fc6")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "c3e50e55-5caf-4c7b-8b20-a9f877a4f1f9")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "020c19b7-c26d-46f1-ba0e-c68617a68505")
+		)
+		(group ""
+			(uuid "b55280e1-24be-49ce-97ab-094abac6fd1e")
+			(members "427999ee-3353-4ceb-b108-dbbf23316fc6" "4bc97e7e-d92f-45b9-9c51-0b4d357536fc")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "ca4b0ddc-180c-4007-ab54-b611fd99a0a4")
+		(at 313.431768 155.078776)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "22eb156f-f9be-4432-bc97-8bf1edcce6f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38e4121c-f118-4fe3-9de4-283f8d5cba40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "858af510-0bc8-4141-96c7-7c71e7e3f592")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "287e2684-a4b4-4a65-8dd8-d733cf549f60")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "999eb17f-1128-4486-81f3-80ac2289866e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3e92ab3d-1ace-4166-bf29-9c131106620d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -3.274216 0)
+			(layer "F.Fab")
+			(uuid "cae52995-e952-429e-8f17-7364678f4368")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "7d3cf4b7-7b24-4bfd-abac-d0a578df72fa")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
+		(locked yes)
+		(layer "F.Cu")
+		(uuid "d394aa4e-5bd6-44ae-abb6-28848209a31f")
+		(at 232.469336 118.169432)
+		(descr "Mounting Hole 2.2mm, no annular, M2")
+		(tags "mounting hole 2.2mm no annular m2")
+		(property "Reference" "M2"
+			(at 0 -3.2 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aa5d9631-e1f9-4c7d-a9cb-7a2703496a90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66fd570b-f05a-4903-92b6-0c068dba9b46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccce3376-e3cd-4215-b801-c003265e5923")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d8480e-987b-416e-a994-b47efaf643e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.05)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 2.2 0)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill no)
+			(layer "Cmts.User")
+			(uuid "94ba4cf3-169b-4be4-ab7e-5b78f8780957")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2.45 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "29edf0ef-ddca-4d4a-85c3-0e235c0ec933")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 3.274216 0)
+			(layer "F.Fab")
+			(uuid "95933b09-f1a2-4c66-ae4e-fd6cc4c130f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 2.2 2.2)
+			(drill 2.2)
+			(layers "*.Cu" "*.Mask")
+			(uuid "9fd2d006-1de7-4747-8248-5aec5508e947")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "daabaa92-ff82-4ba4-bbd8-62eeacc7f312")
+		(at 337.244248 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6ed15d85-d792-4a3a-a1ae-128fddeef6d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c900248-3f6e-4b22-880b-f47eef5699fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0a8a47e-1cfc-4f7d-adb4-99b737114c05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3e5a67c-48f1-4c75-b067-63742db7916e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "097fa487-d478-44f1-b9ee-16ab6c91a5ee")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "185dad9e-91d0-4f9c-b111-854b7f8525db")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "f7dfbd30-1769-4d5b-888a-a6c31a457594")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "59926506-873b-476e-bff8-2fa549d695d7")
+		)
+		(group ""
+			(uuid "61f8922f-550b-406a-af74-3ddce8c42acd")
+			(members "097fa487-d478-44f1-b9ee-16ab6c91a5ee" "185dad9e-91d0-4f9c-b111-854b7f8525db")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "e4bd8e62-a185-4e60-af4f-70811e1e9c85")
+		(at 275.3318 165.19908)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e10095b6-5d70-49a0-96b6-877659aaa7c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef6ede0e-8574-4aac-a42a-f23bfaa7d669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b67e25f1-97bb-48e6-95b3-e5a80a7a3297")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36b34464-f2f4-4355-88e4-fe402bd0384f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "2888c9bc-5c80-477b-91db-740a97811f4f")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "27da143d-d305-4235-88b0-05a98dde182f")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "c99569ef-0654-4547-8d0d-20f4158d29c6")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "e3677957-59ea-400a-8ba6-701a2cfd1720")
+		)
+		(group ""
+			(uuid "fb104d4a-7762-4678-9811-47032c03005e")
+			(members "27da143d-d305-4235-88b0-05a98dde182f" "2888c9bc-5c80-477b-91db-740a97811f4f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "e66615ec-f3db-4df3-b2ea-5f4064746d72")
+		(at 237.231832 165.19908)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "54b43c5f-72d1-4c04-a682-f8da48f9f3ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a693dcc-d6b2-4751-a583-fad1cdcd490d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79d1b382-723b-4b5f-a937-c32d64faeb9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3303e9e-5b68-4224-8220-6f0386ba4e58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "e9827a67-7253-430a-842f-42bfde81e63b")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "e2c92bb3-5089-48ff-9217-6dc44afc0539")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "322bf717-edb5-43c5-9833-76345d08e8c8")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "eb69939c-b8f5-4175-a5b8-0ea2fc4dd7e1")
+		)
+		(group ""
+			(uuid "84381afe-e219-4a92-ab22-f0ea2a6e2c88")
+			(members "e2c92bb3-5089-48ff-9217-6dc44afc0539" "e9827a67-7253-430a-842f-42bfde81e63b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "efb222c5-0924-4f7a-9075-7b545d8b9d98")
+		(at 280.094296 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "69a98ef4-4100-4675-92ca-ae6495a4ed7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e81a04d-21ce-4d03-a93a-db04e99a9202")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17360944-bc53-47ac-ad76-f4dbe8d54ac6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ff21308-569b-4592-a268-c42ababe8539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "95f23c64-082c-4d75-ac30-3284e25f7fe7")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "2cc788f6-d997-41d8-be64-196f30670d3f")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "d99b5562-4e0b-4761-8a9c-67143bb8c9e8")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "6143d2d8-1ab3-4586-a68a-6795d8c57596")
+		)
+		(group ""
+			(uuid "7a9999c1-f486-4882-8a0a-0c25eecb8785")
+			(members "2cc788f6-d997-41d8-be64-196f30670d3f" "95f23c64-082c-4d75-ac30-3284e25f7fe7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "f60fa540-53ce-46a7-a7c3-47b39dd77e81")
+		(at 284.856792 146.149096)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84fec5eb-72bc-432f-b8ae-47c00382c0f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e92b490-f46f-447f-b970-c78c2d00fe3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d490939-26a6-4bb9-a676-87fd69bc862b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfc5e158-5c1f-4119-aa2f-d33c505c6ba2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "4bbf45fd-709b-4613-a5e6-a3064adb1985")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "e5a6b054-8820-4abc-8c50-183dc38f9355")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "32e04d10-9025-456a-b6b6-a7f6676deb84")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "80199a85-75e5-40b3-8d2c-c011915ba0fa")
+		)
+		(group ""
+			(uuid "2a746e6a-f80c-47de-baad-94b9a30273e7")
+			(members "4bbf45fd-709b-4613-a5e6-a3064adb1985" "e5a6b054-8820-4abc-8c50-183dc38f9355")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "fccb179e-17a1-4cb6-a86b-d7171a92dcfb")
+		(at 318.194264 127.099112)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8c536285-1128-4d60-83ec-b26fd6901222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecc3010a-604f-4a1d-97b1-c143e59a5921")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "831239e7-cbce-49e6-ab7c-c1b57d36ea5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e4774b-6e8a-44cb-92c9-8543b1f69dc5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "86c6768f-8b95-446f-a8c6-1584b7c4edac")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(uuid "67ba68d8-ed87-436d-99bb-81c97a36aca9")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(uuid "a5176c98-0517-4d39-9cea-e78c1bf2396b")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "da9ed7f9-bd6e-4a0a-9079-1629e73030b0")
+		)
+		(group ""
+			(uuid "1eaae75c-a86f-4a23-bf36-58e70620fde9")
+			(members "67ba68d8-ed87-436d-99bb-81c97a36aca9" "86c6768f-8b95-446f-a8c6-1584b7c4edac")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "footprints:filler-plate"
+		(layer "F.Cu")
+		(uuid "fe3dabb0-8f21-417f-b552-71561edf5c3a")
+		(at 303.906776 146.149096)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b4f58229-8635-4318-822c-9fa6764d21eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "switch-plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "194c3b74-3432-4e8c-8276-1a3a09187b60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfa6e46f-9c05-428a-8e80-e1ce050f4a02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d0f9e61-58e5-40d4-978e-c4b982a53d0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_line
+			(start -0.595312 0)
+			(end 0.595312 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "6ac17cce-2fcd-4035-88ea-3b6e0ea07cf2")
+		)
+		(fp_line
+			(start 0 0.595312)
+			(end 0 -0.595312)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "1140838e-7c9d-46c6-b1ee-5cb2f75fb9aa")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "Dwgs.User")
+			(net 1)
+			(uuid "2084e82f-6b85-49f7-8c48-e8f0cee5433f")
+		)
+		(fp_rect
+			(start -7.25 -7.25)
+			(end 7.25 7.25)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(net 1)
+			(uuid "0f055f1a-7bee-46b3-a3b1-b3b9db37089b")
+		)
+		(group ""
+			(uuid "ed7b89fb-b5b7-44a9-95b5-b13d6dfcd23c")
+			(members "1140838e-7c9d-46c6-b1ee-5cb2f75fb9aa" "6ac17cce-2fcd-4035-88ea-3b6e0ea07cf2")
+		)
+		(embedded_fonts no)
+	)
+	(gr_line
+		(start 270.569304 174.724072)
+		(end 270.569409 193.7699)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "04966b36-896f-4a76-9615-da84c8fbb233")
+	)
+	(gr_line
+		(start 332.481856 155.674088)
+		(end 322.956856 155.674088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0bf1585c-c704-4408-89c5-1f3ac21b55f7")
+	)
+	(gr_line
+		(start 213.419356 117.574088)
+		(end 222.944356 117.574088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "12d0beaa-a9d4-4db8-b957-a608a2a815a4")
+	)
+	(gr_line
+		(start 208.656856 155.674088)
+		(end 218.181856 155.674088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "22a6da7b-4e79-481a-ba4b-f6c2813a0e44")
+	)
+	(gr_line
+		(start 218.181856 136.624088)
+		(end 213.419356 136.624088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3a59de0f-f1bd-48a5-b034-1e695aed67dc")
+	)
+	(gr_line
+		(start 213.419356 136.624088)
+		(end 213.419356 117.574088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3dfcced8-5c2c-42d3-8e9a-48c297a29702")
+	)
+	(gr_line
+		(start 213.419352 193.774088)
+		(end 213.419352 174.724088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "48a8ce2d-cad6-4ce7-97a7-014e5c0214a3")
+	)
+	(gr_line
+		(start 356.294356 117.574088)
+		(end 346.769356 117.574088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66040a60-13db-495c-a719-0d56293912be")
+	)
+	(gr_line
+		(start 332.481856 136.624088)
+		(end 332.481856 155.674088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "66fc49b4-bc75-46c6-9eb2-46c68d4d8d30")
+	)
+	(gr_line
+		(start 213.419352 193.774056)
+		(end 270.569409 193.7699)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6d2b09b6-b4cf-4405-8ef2-ff480f3c8342")
+	)
+	(gr_line
+		(start 222.944356 117.574088)
+		(end 222.944356 98.524088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7c2abebb-3bb0-4671-b4ff-37a235ac4c0c")
+	)
+	(gr_line
+		(start 346.769356 136.624088)
+		(end 332.481856 136.624088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7db0f09a-fe59-494b-b1de-2e8ef59aa7ab")
+	)
+	(gr_line
+		(start 322.956856 174.724088)
+		(end 270.569304 174.724072)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "910899f3-c47d-4b7f-bda8-e0c296c24bc4")
+	)
+	(gr_line
+		(start 322.956856 155.674088)
+		(end 322.956856 174.724088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a13b31d0-e291-449e-b431-b55a999cd815")
+	)
+	(gr_line
+		(start 356.294413 117.569932)
+		(end 356.294356 98.524088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b49be865-3337-417d-89b2-0abbfe8d6f21")
+	)
+	(gr_line
+		(start 346.769356 117.574088)
+		(end 346.769356 136.624088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b709f6fe-90ad-4687-8204-adaa359827bb")
+	)
+	(gr_line
+		(start 208.656856 155.674088)
+		(end 208.656856 174.724088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8373922-8bce-421d-94ef-fd0976745bd0")
+	)
+	(gr_line
+		(start 213.419352 174.724088)
+		(end 208.656856 174.724088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd3aa3b0-c0d3-4120-81a1-b382308519af")
+	)
+	(gr_line
+		(start 218.181856 155.674088)
+		(end 218.181856 136.624088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d0b48b1c-ef75-47b2-936f-7c3802a5a831")
+	)
+	(gr_line
+		(start 222.944356 98.524136)
+		(end 356.294356 98.524088)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f21d215c-0a30-4460-9db6-b5aa8cc05916")
+	)
+	(embedded_fonts no)
+)
